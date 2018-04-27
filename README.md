@@ -10,3 +10,4 @@ Articles to read:
  - DCGAN
  - WGAN
  - WaveNet autoencoders
+ - WaveNet
