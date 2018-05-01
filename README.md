@@ -1,7 +1,7 @@
 # Machine Learning Tone Generation
 I plan on using GANs to make believeable instrument tone audio.
 
-Starting to think about gathering training data
+Recorded audio in 4 different ways for testing, probably need more trials
 
 Finished all linear algrebra jupyter notebooks, have not started on multivariable jupyter notebooks
 
