@@ -45,3 +45,9 @@ resuming operation...
 [I 09:32:09.436 NotebookApp] The Jupyter Notebook is running at:
 [I 09:32:09.436 NotebookApp] https://[all ip addresses on your system]:8888/
 [I 09:32:09.436 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:32:50.651 NotebookApp] 302 GET / (166.171.58.53) 0.88ms
+[I 09:32:50.740 NotebookApp] 302 GET /tree? (166.171.58.53) 0.93ms
+[I 09:40:47.440 NotebookApp] 302 GET / (166.171.58.53) 0.37ms
+[I 09:40:47.531 NotebookApp] 302 GET /tree? (166.171.58.53) 0.69ms
+[C 09:44:19.549 NotebookApp] received signal 15, stopping
+[I 09:44:19.551 NotebookApp] Shutting down 0 kernels
