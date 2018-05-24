@@ -1,18 +1,16 @@
 # Machine Learning Tone Generation
 I plan on using GANs to make believeable instrument tone audio.
 
-Got the audio into a 2d array that a net could be used on, found way to plot spectrogram for visualization
+Got the audio into a 2d array of complex numbers processed by Fourier transform, found way to plot spectrogram for visualization
 
-Finished all linear algrebra jupyter notebooks, 3 multivariable notebooks; need to finish 1-2 multivariable notebooks
+Finished linear algebra and multivariable calculus courses on Coursera (completed all quizzes to 100% and notebooks)
 
-Looked at the GAN websites Mr. Writer shared; definitely would help with the more nitty-gritty of GAN implementation, especially DCGANs
-
-Articles to read:
- - Adversarial autoencoders
- - WGAN
- - WaveNet autoencoders
- - WaveNet
+Things to look at:
+ - Courses for contract proposal
+ - Log-mel spectrogram
 
 Important read articles:
  - CNN classification of spectrograms
  - DCGAN
+
+Emailed primary author of CNN timbre analysis spectrograms; he pointed me to log-mel spectrograms and the GitHub code (https://github.com/jordipons/EUSIPCO2017)
