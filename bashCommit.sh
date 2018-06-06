@@ -1,11 +1,7 @@
+cd ~/library/
 git config --global user.email asianzhang812@gmail.com
 git config --global user.name asianzhang
 git pull
 git add .
-if [ "$#" -eq 1] 
-then
-    git commit -m $1
-else
-    git commit --allow-empty-message
-fi
+git commit -a --allow-empty-message
 git push
