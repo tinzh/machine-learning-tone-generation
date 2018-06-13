@@ -1,0 +1,47 @@
+[I 09:24:01.552 NotebookApp] JupyterLab beta preview extension loaded from /Users/asianzhang/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 09:24:01.552 NotebookApp] JupyterLab application directory is /Users/asianzhang/anaconda3/share/jupyter/lab
+[I 09:24:01.646 NotebookApp] Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+[I 09:24:01.646 NotebookApp] 0 active kernels
+[I 09:24:01.646 NotebookApp] The Jupyter Notebook is running at:
+[I 09:24:01.646 NotebookApp] https://[all ip addresses on your system]:8443/
+[I 09:24:01.646 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:24:31.703 NotebookApp] SSL Error on 12 ('208.255.153.187', 6616): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 09:25:20.195 NotebookApp] received signal 15, stopping
+[I 09:25:20.196 NotebookApp] Shutting down 0 kernels
+[I 09:25:39.901 NotebookApp] JupyterLab beta preview extension loaded from /Users/asianzhang/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 09:25:39.901 NotebookApp] JupyterLab application directory is /Users/asianzhang/anaconda3/share/jupyter/lab
+[I 09:25:39.907 NotebookApp] Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+[I 09:25:39.907 NotebookApp] 0 active kernels
+[I 09:25:39.907 NotebookApp] The Jupyter Notebook is running at:
+[I 09:25:39.907 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 09:25:39.907 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:26:34.270 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+0 active kernels
+The Jupyter Notebook is running at:
+https://[all ip addresses on your system]:8888/
+Shutdown this notebook server (y/[n])? [I 09:26:38.943 NotebookApp] interrupted
+resuming operation...
+Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+0 active kernels
+The Jupyter Notebook is running at:
+https://[all ip addresses on your system]:8888/
+Shutdown this notebook server (y/[n])? [C 09:27:22.014 NotebookApp] received signal 15, stopping
+[I 09:27:22.015 NotebookApp] Shutting down 0 kernels
+resuming operation...
+[I 09:28:29.298 NotebookApp] JupyterLab beta preview extension loaded from /Users/asianzhang/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 09:28:29.298 NotebookApp] JupyterLab application directory is /Users/asianzhang/anaconda3/share/jupyter/lab
+[I 09:28:29.304 NotebookApp] Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+[I 09:28:29.304 NotebookApp] 0 active kernels
+[I 09:28:29.304 NotebookApp] The Jupyter Notebook is running at:
+[I 09:28:29.304 NotebookApp] https://[all ip addresses on your system]:8443/
+[I 09:28:29.304 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:30:57.920 NotebookApp] received signal 15, stopping
+[I 09:30:57.921 NotebookApp] Shutting down 0 kernels
+[I 09:32:09.430 NotebookApp] JupyterLab beta preview extension loaded from /Users/asianzhang/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 09:32:09.430 NotebookApp] JupyterLab application directory is /Users/asianzhang/anaconda3/share/jupyter/lab
+[I 09:32:09.436 NotebookApp] Serving notebooks from local directory: /Users/asianzhang/Documents/GitHub/machine-learning-tone-generation
+[I 09:32:09.436 NotebookApp] 0 active kernels
+[I 09:32:09.436 NotebookApp] The Jupyter Notebook is running at:
+[I 09:32:09.436 NotebookApp] https://[all ip addresses on your system]:8888/
+[I 09:32:09.436 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
