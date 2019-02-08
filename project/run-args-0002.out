@@ -1,0 +1,41 @@
+WARNING:tensorflow:Estimator's model_fn (<function model_fn at 0x7f90bb32fae8>) includes params argument, but params are not passed to Estimator.
+2019-02-08 01:00:15.405252: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
+2019-02-08 01:01:01.416023: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
+Finished imports
+[2K2019-02-08 01:06:31.094831: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
+[2K2019-02-07 20:05:49.266839-05:00
+Finished global step 121600
+Time taken: 334.4522445201874 sec
+[2K/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/matplotlib/figure.py:98: MatplotlibDeprecationWarning: 
+Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  "Adding an axes using the same arguments as a previous axes "
+2019-02-08 01:11:57.524480: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
+WARNING:tensorflow:Reraising captured error
+[2K2019-02-07 20:11:18.819104-05:00
+Finished global step 121700
+Time taken: 328.69411611557007 sec
+[2KException ignored in: <generator object TPUEstimator.predict at 0x7f909a4b3f68>
+Traceback (most recent call last):
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
+    rendezvous.raise_errors()
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
+    six.reraise(typ, value, traceback)
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
+    raise value
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
+    yield
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
+    session.run(self._enqueue_ops)
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
+2019-02-08 01:17:39.466029: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
+2019-02-08 01:29:27.521152: E tensorflow/core/platform/cloud/curl_http_request.cc:596] The transmission  of request 0x7f90b4000e20 (URI: https://www.googleapis.com/upload/storage/v1/b/jz-model-checkpoints/o?uploadType=resumable&name=gan-tpu-nhwc-opt-test%2Fevents.out.tfevents.1549587632.small-tpu-controller) has been stuck at 0 of 0 bytes for 267 seconds and will be aborted. CURL timing information: lookup time: 23.4433 (No error), connect time: 26.3818 (No error), pre-transfer time: 0 (No error), start-transfer time: 0 (No error)
+2019-02-08 01:29:28.721904: I tensorflow/core/platform/cloud/retrying_utils.cc:73] The operation failed and will be automatically retried in 0.879392 seconds (attempt 1 out of 10), caused by: Unavailable: Error executing an HTTP request: libcurl code 28 meaning 'Timeout was reached', error details: SSL connection timeout
+	 when initiating an upload to gs://jz-model-checkpoints/gan-tpu-nhwc-opt-test/events.out.tfevents.1549587632.small-tpu-controller

@@ -1,0 +1,2 @@
+WARNING:tensorflow:Estimator's model_fn (<function model_fn at 0x7fee67cb9ae8>) includes params argument, but params are not passed to Estimator.
+2019-02-07 21:33:57.010501: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.

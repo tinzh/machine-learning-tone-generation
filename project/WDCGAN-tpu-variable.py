@@ -26,6 +26,7 @@ from tensorflow.image import ResizeMethod
 #from google.cloud import storage
 #import google.auth
 #from google.auth import compute_engine
+import argparse
 print("Finished imports")
 
 from datetime import datetime
@@ -49,7 +50,7 @@ BATCH_SIZE = 64
 PREFETCH_BUFFER_SIZE = 2 * BATCH_SIZE
 # EPOCHS = 150
 LAMBDA = 10
-ALPHA = 0.0002
+ALPHA = 0.001
 BETA1 = 0.5
 BETA2 = 0.999
 CRITIC_UPDATES_PER_GEN_UPDATE = 5
@@ -60,7 +61,17 @@ num_examples_to_generate = 16
 spec_dim = (128, 504, 3)
 dataset_spec_dim = (3, 128, 504)
 epoch_proportion_counter = 0.0
-model_dir = 'gs://jz-model-checkpoints/gan-tpu-nhwc-opt-test/'
+model_dir = 'gs://jz-model-checkpoints/gan-tpu-high-lr/'
+tpu_name = "node1"
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--tpu")
+parser.add_argument("--lr")
+parser.add_argument("--dir")
+args = parser.parse_args()
+tpu_name = args.tpu
+ALPHA = float(args.lr)
+model_dir = 'gs://jz-model-checkpoints/{}/'.format(args.dir)
 
 def residBlockUpscale(num, x, num_filters, filter_size=5, strides=(2, 2), 
                       num_filters_intermed=None, training=True):
@@ -317,7 +328,7 @@ def generate_images(images, source='fake', save=True):
     return images['global_step'][0, 0], np.round(images['critic_step'][0, 0]), np.round(images['gen_step'][0, 0]) 
 
 cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(
-    tpu=["node1"], 
+    tpu=[tpu_name], 
     zone="us-central1-f", 
     project="jz-cloud-test"
 )
