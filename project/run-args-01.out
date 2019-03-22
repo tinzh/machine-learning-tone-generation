@@ -1,499 +1,2 @@
-WARNING:tensorflow:Estimator's model_fn (<function model_fn at 0x7f6dbd8e3ae8>) includes params argument, but params are not passed to Estimator.
-2019-02-07 21:33:34.800038: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-2019-02-07 21:34:18.395430: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-Finished imports
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6db92ccd58>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 21:39:54.236847: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 16:39:12.060030-05:00
-Finished global step 1400
-Time taken: 337.9718074798584 sec
-[2K/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/matplotlib/figure.py:98: MatplotlibDeprecationWarning: 
-Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  "Adding an axes using the same arguments as a previous axes "
-2019-02-07 21:45:30.155753: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 16:44:47.288296-05:00
-Finished global step 1500
-Time taken: 334.38638496398926 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6dbd7152b0>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 21:51:08.241150: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 16:50:25.752836-05:00
-Finished global step 1600
-Time taken: 337.94030833244324 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6db995a830>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 21:56:46.306092: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 16:56:04.093721-05:00
-Finished global step 1700
-Time taken: 337.03606486320496 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6d9356f3b8>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 22:02:23.574492: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 17:01:41.452045-05:00
-Finished global step 1800
-Time taken: 336.6438322067261 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6db8c8fd58>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 22:08:01.025023: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:07:20.705351-05:00
-Finished global step 1900
-Time taken: 337.68563175201416 sec
-[2K2019-02-07 22:13:36.060364: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 17:12:55.680656-05:00
-Finished global step 2000
-Time taken: 332.7024266719818 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6db8330fc0>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 22:19:11.315449: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:18:33.972995-05:00
-Finished global step 2100
-Time taken: 337.5294506549835 sec
-[2K2019-02-07 22:24:46.645656: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:24:04.162136-05:00
-Finished global step 2200
-Time taken: 329.2369236946106 sec
-[2K2019-02-07 22:30:24.293971: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:29:41.423079-05:00
-Finished global step 2300
-Time taken: 335.7878007888794 sec
-[2K2019-02-07 22:36:02.476223: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:35:21.619043-05:00
-Finished global step 2400
-Time taken: 337.8699655532837 sec
-[2K2019-02-07 22:41:36.126875: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 17:40:56.084092-05:00
-Finished global step 2500
-Time taken: 332.26141905784607 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6d8ea57308>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-07 22:47:14.907979: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:46:31.975903-05:00
-Finished global step 2600
-Time taken: 334.0064928531647 sec
-[2K2019-02-07 22:52:53.719317: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:52:11.406665-05:00
-Finished global step 2700
-Time taken: 336.35323786735535 sec
-[2K2019-02-07 22:58:32.237577: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 17:57:48.184611-05:00
-Finished global step 2800
-Time taken: 333.9632544517517 sec
-[2K2019-02-07 23:04:15.780241: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:03:31.595774-05:00
-Finished global step 2900
-Time taken: 340.2142708301544 sec
-[2K2019-02-07 23:09:50.628553: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:09:08.051391-05:00
-Finished global step 3000
-Time taken: 333.66244435310364 sec
-[2K2019-02-07 23:15:26.628771: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:14:46.494638-05:00
-Finished global step 3100
-Time taken: 335.7257995605469 sec
-[2K2019-02-07 23:21:03.939455: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:20:25.219604-05:00
-Finished global step 3200
-Time taken: 335.1614272594452 sec
-[2K2019-02-07 23:26:43.456697: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:26:03.255963-05:00
-Finished global step 3300
-Time taken: 335.86145281791687 sec
-[2K2019-02-07 23:32:22.774214: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:31:42.445153-05:00
-Finished global step 3400
-Time taken: 336.83718752861023 sec
-[2K2019-02-07 23:38:01.027518: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:37:21.882553-05:00
-Finished global step 3500
-Time taken: 336.6577808856964 sec
-[2K2019-02-07 23:43:40.857860: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:42:58.593750-05:00
-Finished global step 3600
-Time taken: 334.29247760772705 sec
-[2K2019-02-07 23:49:20.172919: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:48:36.085201-05:00
-Finished global step 3700
-Time taken: 333.8591887950897 sec
-[2K2019-02-07 23:54:56.660076: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 18:54:14.139762-05:00
-Finished global step 3800
-Time taken: 334.26363921165466 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6d71e71ba0>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:00:36.214989: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 18:59:55.558365-05:00
-Finished global step 3900
-Time taken: 337.27981519699097 sec
-[2K2019-02-08 00:06:23.587192: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-LLVM ERROR: out of memory
-Aborted
-WARNING:tensorflow:Estimator's model_fn (<function model_fn at 0x7f69906c7ae8>) includes params argument, but params are not passed to Estimator.
-2019-02-08 00:11:37.884022: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-2019-02-08 00:12:28.157333: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-Finished imports
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f69905075c8>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:18:10.827409: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 19:17:29.259750-05:00
-Finished global step 4200
-Time taken: 352.4126648902893 sec
-[2K/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/matplotlib/figure.py:98: MatplotlibDeprecationWarning: 
-Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  "Adding an axes using the same arguments as a previous axes "
-2019-02-08 00:23:47.275528: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 19:23:06.012557-05:00
-Finished global step 4300
-Time taken: 335.7242670059204 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f69674fb4c0>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:29:24.077835: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 19:28:42.186350-05:00
-Finished global step 4400
-Time taken: 335.6323254108429 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f698c0af8e0>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:34:59.855673: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 19:34:20.125802-05:00
-Finished global step 4500
-Time taken: 336.4169075489044 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f69624ec5c8>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:40:39.739844: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 19:39:56.040729-05:00
-Finished global step 4600
-Time taken: 335.18159675598145 sec
-[2K2019-02-08 00:46:15.625789: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 19:45:34.407962-05:00
-Finished global step 4700
-Time taken: 336.5570476055145 sec
-[2KException ignored in: <generator object TPUEstimator.predict at 0x7f6962d447d8>
-Traceback (most recent call last):
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2446, in predict
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 132, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 101, in catch_errors
-    yield
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 442, in _run_infeed
-    session.run(self._enqueue_ops)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
-    run_metadata_ptr)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
-    feed_dict_tensor, options, run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
-    run_metadata)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
-    raise type(e)(node_def, op, message)
-tensorflow.python.framework.errors_impl.CancelledError: Step was cancelled by an explicit call to `Session::Close()`.
-2019-02-08 00:51:51.143890: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 19:51:11.809823-05:00
-Finished global step 4800
-Time taken: 335.7155797481537 sec
-[2K2019-02-08 00:57:31.297850: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 19:56:49.471688-05:00
-Finished global step 4900
-Time taken: 336.5757887363434 sec
-[2K2019-02-08 01:03:05.321340: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 20:02:25.230659-05:00
-Finished global step 5000
-Time taken: 334.21737265586853 sec
-[2K2019-02-08 01:08:42.651984: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 20:07:59.800353-05:00
-Finished global step 5100
-Time taken: 332.6398968696594 sec
-[2K2019-02-08 01:14:38.855198: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-[2K2019-02-07 20:13:40.684202-05:00
-Finished global step 5200
-Time taken: 338.83019638061523 sec
-[2K2019-02-08 01:20:37.589119: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.
-WARNING:tensorflow:Reraising captured error
-[2K2019-02-07 20:19:39.266209-05:00
-Finished global step 5300
-Time taken: 354.76070833206177 sec
-Caught error
-Traceback (most recent call last):
-  File "WDCGAN-tpu-variable.py", line 360, in <module>
-    runOneEpoch(model)
-  File "WDCGAN-tpu-variable.py", line 282, in runOneEpoch
-    model.train(input_fn, steps=num_steps)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2409, in train
-    rendezvous.raise_errors()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/error_handling.py", line 128, in raise_errors
-    six.reraise(typ, value, traceback)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
-    raise value
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 2403, in train
-    saving_listeners=saving_listeners
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 354, in train
-    loss = self._train_model(input_fn, hooks, saving_listeners)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1207, in _train_model
-    return self._train_model_default(input_fn, hooks, saving_listeners)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1241, in _train_model_default
-    saving_listeners)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1468, in _train_with_estimator_spec
-    log_step_count_steps=log_step_count_steps) as mon_sess:
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 504, in MonitoredTrainingSession
-    stop_grace_period_secs=stop_grace_period_secs)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 921, in __init__
-    stop_grace_period_secs=stop_grace_period_secs)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 643, in __init__
-    self._sess = _RecoverableSession(self._coordinated_creator)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1107, in __init__
-    _WrappedSession.__init__(self, self._create_session())
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1112, in _create_session
-    return self._sess_creator.create_session()
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 807, in create_session
-    hook.after_create_session(self.tf_sess, self.coord)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 465, in after_create_session
-    name='InfeedController', target=self._run_infeed, args=(session,))
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 455, in _create_infeed_controller
-    return _OpQueueContext(name=name, target=target, args=args)
-  File "/home/asianzhang812_gmail_com/.local/lib/python3.5/site-packages/tensorflow/contrib/tpu/python/tpu/tpu_estimator.py", line 342, in __init__
-    self._thread.start()
-  File "/usr/lib/python3.5/threading.py", line 844, in start
-    _start_new_thread(self._bootstrap, ())
-RuntimeError: can't start new thread
+WARNING:tensorflow:Estimator's model_fn (<function model_fn at 0x7f1dc43a9a60>) includes params argument, but params are not passed to Estimator.
+2019-03-04 14:26:00.050353: W tensorflow/core/distributed_runtime/rpc/grpc_session.cc:349] GrpcSession::ListDevices will initialize the session with an empty graph and other defaults because the session has not yet been created.

@@ -43,10 +43,8 @@ pool = functools.partial(tf.nn.pool, window_shape=(2, 2), pooling_type='AVG', pa
 
 # Number for large nsynth-train dataset
 TOTAL_NUM = 102165
-# Number for small nsynth-test dataset
-# TOTAL_NUM = 1689
 BUFFER_SIZE = 2048
-BATCH_SIZE = 64
+BATCH_SIZE = 64*4
 PREFETCH_BUFFER_SIZE = 2 * BATCH_SIZE
 # EPOCHS = 150
 LAMBDA = 10
@@ -189,7 +187,7 @@ def input_fn(params):
     with tf.variable_scope('input-pipeline'):
         batch_size = params['batch_size']
         # Reading features of TFRecord file
-        files = tf.data.Dataset.list_files('gs://jz-datasets/spec-files/*.tfrecord')
+        files = tf.data.Dataset.list_files('gs://jz-datasets/spec-pruned-files/*.tfrecord')
         specs = files.apply(tf.data.experimental.parallel_interleave(tf.data.TFRecordDataset, cycle_length=2))
         specs = specs.apply(tf.data.experimental.shuffle_and_repeat(buffer_size=BUFFER_SIZE))
         # specs = specs.map(map_func=(lambda raw_data: tf.reshape(tf.parse_single_example(serialized=raw_data, features=read_features)['spectrogram'], spec_dim)), num_parallel_calls=-1)
@@ -263,7 +261,8 @@ def model_fn(features, labels, mode, params):
         return tf.contrib.tpu.TPUEstimatorSpec(mode, loss=critic_cost, train_op=opt)
 
     return
-    
+
+
 def testAudio(specs, prefix, save=True):
     for i in range(specs.shape[0]):
         spec = specs[i]
